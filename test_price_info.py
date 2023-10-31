@@ -17,3 +17,4 @@ def test_cost_of_fruits():
     result = price_info.cost_of_fruits(type_of_fruit_in_list, quantity)
     assert result == 7.0
 
+
