@@ -15,7 +15,7 @@ def test_get_employees_by_age():
 
 def test_calculate_average_salary():
     answer = 60167
-    result = round(employee_info.calculate_average_salary())
+    result = employee_info.calculate_average_salary()
 
     assert result == answer
 
