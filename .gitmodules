@@ -1,0 +1,3 @@
+[submodule "DEVOPS_Lab2"]
+	path = DEVOPS_Lab2
+	url = git@github.com:LRawrerL/DEVOPS_Lab2.git
