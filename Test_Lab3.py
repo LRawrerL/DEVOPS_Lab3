@@ -50,7 +50,7 @@ def test_bubble_sort_n_equal_0():
 
 def test_bubble_sort_not_a_int():
     result = []
-    input_arr = ["a", "b", "c"]
+    input_arr = [1, 2, "c"]
 
     result = Lab3.bubble_sort(input_arr, Lab3.SORT_ASCENDING)
 
