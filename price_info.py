@@ -18,7 +18,7 @@ def total_cost_shopping():
 def cost_of_fruits(fruit, quantity):
     for key in price_list.keys():
         if key == fruit:
-            cost = quantity*price_list[key]
+            cost = round(quantity*price_list[key], 3)
             break
 
     print("cost of ", quantity, fruit, "=", cost)
