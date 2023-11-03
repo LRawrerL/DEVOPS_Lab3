@@ -55,3 +55,5 @@ def test_bubble_sort_not_a_int():
     result = Lab3.bubble_sort(input_arr, Lab3.SORT_ASCENDING)
 
     assert (result == 2)
+    assert (Lab3.bubble_sort([1, 2, 3.4], Lab3.SORT_DESCENDING) == 2)
+    assert (Lab3.bubble_sort(["b", "a", "c"], Lab3.SORT_DESCENDING) == 2)
